@@ -1,0 +1,17 @@
+:root {
+    --text-color: #fff;
+    --secondary-color: #6c757d;
+    --bg-body: #1f2123;
+    --border-color: #fff1;
+    --bg-separate: #FFFFFF08;
+}
+
+.Nft_item {
+    &:hover {
+        background-color: var(--bg-separate);
+    }
+}
+
+.btn-close {
+    filter: invert(1);
+}

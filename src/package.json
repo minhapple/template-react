@@ -1,0 +1,83 @@
+{
+    "name": "template_marketplace",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "css-loader": "^6.7.1",
+        "file-loader": "^6.2.0",
+        "from-exponential": "^1.1.1",
+        "react": "^18.1.0",
+        "react-dom": "^18.1.0",
+        "react-error-boundary": "^3.1.4",
+        "react-router-dom": "^6.3.0",
+        "react-scripts": "5.0.1",
+        "react-select": "^5.3.2",
+        "react-use": "^17.4.0",
+        "sass": "^1.52.1",
+        "style-loader": "^3.3.1",
+        "swr": "^2.0.0-beta.5",
+        "typescript": "^4.4.2",
+        "web-vitals": "^2.1.0"
+    },
+    "scripts": {
+        "start": "craco start",
+        "build": "craco build",
+        "test": "craco test",
+        "eject": "craco eject",
+        "commit": "git-cz",
+        "prepare": "cd .. && husky install src/.husky"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^17.0.3",
+        "@commitlint/config-conventional": "^17.0.3",
+        "@craco/craco": "^6.4.5",
+        "@testing-library/jest-dom": "^5.14.1",
+        "@testing-library/react": "^13.0.0",
+        "@testing-library/user-event": "^13.2.1",
+        "@types/jest": "^27.0.1",
+        "@types/node": "^16.7.13",
+        "@types/react": "^18.0.0",
+        "@types/react-dom": "^18.0.0",
+        "@types/react-router-dom": "^5.3.3",
+        "@typescript-eslint/eslint-plugin": "^5.31.0",
+        "@typescript-eslint/parser": "^5.31.0",
+        "craco-alias": "^3.0.1",
+        "cz-conventional-changelog": "^3.3.0",
+        "eslint": "^8.20.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-config-standard": "^17.0.0",
+        "eslint-import-resolver-alias": "^1.Ø1.2",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-n": "^15.0.0",
+        "eslint-plugin-promise": "^6.0.0",
+        "eslint-plugin-react": "^7.30.1",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "git-cz": "^4.9.0",
+        "husky": "^8.0.0",
+        "lint-staged": "^13.0.3",
+        "prettier": "^2.7.1"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
+    }
+}

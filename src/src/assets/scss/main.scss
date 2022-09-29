@@ -1,0 +1,18 @@
+$primary-color: #0c71e9;
+:root {
+    --text-color: #17191c;
+    --secondary-color: #6c757d;
+    --bg-body: #fff;
+    --border-color: #0001;
+    --primary-color: #0c71e9;
+    --rgb-primary-color: 12, 113, 233;
+    --rgb-text-color: 23, 25, 28;
+    --rgb-bg-body: 255, 255, 255;
+    --bg-separate: #00000008;
+    --radius: 0.25rem;
+}
+
+body {
+    color: var(--text-color);
+    background-color: var(--bg-body);
+}

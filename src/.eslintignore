@@ -1,0 +1,17 @@
+.eslintrc.json
+*.test.tsx
+commitlint.config.js
+# folders
+artifacts/
+build/
+cache/
+coverage/
+dist/
+lib/
+node_modules/
+typechain/
+README.md
+# files
+.solcover.js
+coverage.json
+config-overrides.js
